@@ -1,0 +1,62 @@
+body {
+    background-color:rgb(190,180,220);
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+}
+
+
+.bkgd {
+    background-image:url("images/bkgd.jpg");
+    background-repeat:no-repeat;
+
+    background-position:center top;
+    text-align: center;
+    padding: 0px;
+    min-width: 768px;
+}
+
+.clear { clear: both; }
+
+
+P {
+    font-family:"Palatino Linotype", Palatino, serif;
+}
+
+H1 {
+    font-family:"Palatino Linotype", Palatino, serif;
+    font-size: 18pt;
+    color: #6e2e5d;
+    line-height: 100%;
+    font-weight: normal;
+}
+
+
+.navbar {
+    font-family:"Palatino Linotype", Palatino, serif;
+    font-size:14pt;
+    color:#6e2e5d;
+    text-align:right;
+}
+
+.content {
+    font-family:"Georgia", Georgia, serif;
+    font-size:13pt;
+    color:black;
+    text-align:justify;
+    float: left;
+}
+
+.photobox {
+    display: inline;
+    float: none;
+    text-align: center;
+}
+
+.photo {
+    height: 100px;
+}
+
+a:link {color:#6e2e5d; text-decoration:none;}      /* unvisited link */
+a:visited {color:#6e2e5d; text-decoration:none;}      /* unvisited link */
+a:hover {color:#965685; text-decoration:none;}  /* mouse over link */
